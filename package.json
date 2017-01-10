@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1", 
+    "test": "echo \"Error: no test specified\" && exit 1",
     "mongod": "mongod.exe --dbpath /Users/Alistair/mongo-data"
-    
   },
   "author": "Alistair Willis",
   "license": "ISC",
   "dependencies": {
-    "mongodb": "^2.2.5"
+    "mongodb": "^2.2.5",
+    "mongoose": "^4.5.9"
   }
 }
