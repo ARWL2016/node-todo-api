@@ -4,10 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node server/server.js", 
     "watch": "nodemon server/server.js", 
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec \"npm test\"",
     "mongod": "mongod.exe --dbpath /Users/Alistair/mongo-data"
+  },
+  "engines": {
+    "node": "6.9.2"
   },
   "author": "Alistair Willis",
   "license": "ISC",
