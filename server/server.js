@@ -79,6 +79,7 @@ app.patch('/todos/:id', (req, res) => {
 
     if (_.isBoolean(body.completed) && body.completed) {
         body.completedAt = new Date().getTime(); 
+        console.log(typeof body.completedAt);
     } else {
         body.completed = false; 
         body.completedAt = null; //removes a value from the db

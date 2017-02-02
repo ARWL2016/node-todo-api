@@ -30,3 +30,10 @@ Navigate to C:\Program Files\MongoDB\Server\3.4\bin> or set this path in environ
 ####Dynamic URLs 
 1. Use `app.get('/path/:id')` to collect a parameter
 2. Use `req.params.id` to reference it
+
+####Postman 
+1. Save requests for convenient testing 
+2. Set up local and web host environments with a variable url switch 
+
+####Notes
+- Currently the server.test.js test of PATCH is failing because CompletedAt is returning a string and not a number. Yet it logs as a number on server.js. ??? 
