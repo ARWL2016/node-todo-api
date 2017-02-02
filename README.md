@@ -9,11 +9,18 @@ https://github.com/ARWL2016/node-todo-app
 
 ####Technology  
 - express 4.14.0  
-- mongodb / mongoose   
+- mongodb / mongoose 
+- postman  
 - mocha / expect / supertest  
 - body-parser   
 - git / heroku   
 - ES6 promises  
+- lodash
+
+####Mongo Database Startup
+Navigate to C:\Program Files\MongoDB\Server\3.4\bin> or set this path in environment variables and run in separate command lines:
+1. `mongod.exe --dbpath /Users/Alistair/mongo-data`| `npm run mongod`
+2. `mongo.exe`
 
 ####Mongoose Setup 
 1. In *mongoose.js*, connect to the mongodb server (set promises) 

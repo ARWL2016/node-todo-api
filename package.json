@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server/server.js", 
-    "watch": "nodemon server/server.js", 
+    "start": "node server/server.js",
+    "watch": "nodemon server/server.js",
     "test": "mocha server/**/*.test.js",
     "test-watch": "nodemon --exec \"npm test\"",
     "mongod": "mongod.exe --dbpath /Users/Alistair/mongo-data"
@@ -18,6 +18,7 @@
   "dependencies": {
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
+    "lodash": "^4.17.4",
     "mongodb": "^2.2.5",
     "mongoose": "^4.5.9"
   },
