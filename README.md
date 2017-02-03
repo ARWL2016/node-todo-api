@@ -41,5 +41,8 @@ Navigate to C:\Program Files\MongoDB\Server\3.4\bin> or set this path in environ
 After adding the config.js file - which should set process.env.MONGODB_URI and the PORT to different values for testing and development, the app does not run in Heroku. The error message includes: 
 `failed to connect to server [localhost:27017] on first connect` and 
 `Started on port 3000`
-which seems to indicate a local start 
+which seems to indicate a local start?? 
+- github repo was renamed - try recreating heroku app 
+- breaking changes occurred after lecture 86
+- also check npm log
 
