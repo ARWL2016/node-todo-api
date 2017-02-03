@@ -1,5 +1,6 @@
 
-var env = process.env.NODE_ENV || 'development'; //test || dev 
+// var env = process.env.NODE_ENV || 'development'; //test || dev 
+var env = process.env.NODE_ENV; 
 
 if (env === 'development') {
     process.env.PORT = 3000; 

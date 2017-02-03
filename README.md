@@ -38,3 +38,4 @@ Navigate to C:\Program Files\MongoDB\Server\3.4\bin> or set this path in environ
 2. Set up local and web host environments with a variable url switch 
 
 ####Notes
+After adding the config.js file - which should create a 
