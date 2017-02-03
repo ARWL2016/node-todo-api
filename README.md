@@ -10,6 +10,7 @@ https://github.com/ARWL2016/node-todo-app
 ####Technology  
 - express 4.14.0  
 - mongodb / mongoose 
+- robomongo
 - postman  
 - mocha / expect / supertest  
 - body-parser   
@@ -36,4 +37,3 @@ Navigate to C:\Program Files\MongoDB\Server\3.4\bin> or set this path in environ
 2. Set up local and web host environments with a variable url switch 
 
 ####Notes
-- Currently the server.test.js test of PATCH is failing because CompletedAt is returning a string and not a number. Yet it logs as a number on server.js. ??? 
