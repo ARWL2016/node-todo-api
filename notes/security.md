@@ -10,3 +10,6 @@ https://jwt.io/
 ####Jsonwebtoken (library)
 - `jwtsign` - transforms a user object into a hashed token  
 - `jwtverify` - verifies a token 
+
+####Try / Catch Blocks 
+These work a bit like promises. If any code placed in the try block returns an error, execution will switch to the catch block. 
