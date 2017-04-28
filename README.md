@@ -6,7 +6,7 @@ https://github.com/ARWL2016/node-todo-app
 #### Featured Libraries  
 - Express 4.14.0  
 - mongodb / mongoose   
-- mocha / expect / supertest  
+- Mocha / Expect / Supertest  
 - body-parser   
 - git / heroku   
 - ES6 promises  
