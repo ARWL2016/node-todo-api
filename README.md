@@ -6,24 +6,13 @@ https://gentle-caverns-89208.herokuapp.com/
   
 #### Featured Libraries  
 - Express 4.14.0  
-- mongodb / mongoose   
+- Mongodb / Mongoose   
 - Mocha / Expect / Supertest  
-
-
-- Udemy   
-- Andrew Mead   
-- Section 7   
-
-####Technology  
-- express 4.14.0  
-- mongodb / mongoose 
-- robomongo
-- postman  
-- mocha / expect / supertest  
+- Robomongo
+- Postman  
 - body-parser   
-- git / heroku   
-- ES6 promises  
-- lodash
+- Heroku     
+- Lodash
 
 #### Mongo Database Startup
 Navigate to C:\Program Files\MongoDB\Server\3.4\bin> or set this path in environment variables and run in separate command lines:
@@ -44,7 +33,7 @@ Navigate to C:\Program Files\MongoDB\Server\3.4\bin> or set this path in environ
 - Use body parsing middleware such as body-parser or multer (for forms) 
 - for application/json (ie in most cases) use body-parser.json(). 
 
-####Postman 
+#### Postman 
 1. Save requests for convenient testing 
 2. Set up local and web host environments with a variable url switch 
 
