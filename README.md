@@ -10,7 +10,7 @@ https://gentle-caverns-89208.herokuapp.com/
 - Mocha / Expect / Supertest  
 - Robomongo
 - Postman  
-- body-parser   
+- Body-parser   
 - Heroku     
 - Lodash
 
