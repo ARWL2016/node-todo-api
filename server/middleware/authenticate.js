@@ -1,6 +1,7 @@
 var {User} = require('./../models/user'); 
 
 // middleware function for private routes 
+// adds user to req or returns error
 var authenticate = (req, res, next) => {
     var token = req.header('x-auth'); 
 
@@ -17,4 +18,4 @@ var authenticate = (req, res, next) => {
     });
 }; 
 
-module.exports = {authenticate}
+module.exports = {authenticate};

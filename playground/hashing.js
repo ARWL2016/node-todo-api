@@ -1,6 +1,8 @@
 const {SHA256, SHA512, md5} = require('crypto-js');
 const jwt = require('jsonwebtoken'); 
 
+// FOR BCRYPT EXAMPLE SEE NOTES OR USER.JS
+
 var data = {
   id: 10
 };
